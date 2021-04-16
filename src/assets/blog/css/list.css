@@ -1,0 +1,139 @@
+
+/* 博客分类列表 */
+.select_list{
+	width: 768px;
+    float: left;
+    background: #fff;
+    padding: 0px 30px;
+    position: relative;
+}
+.con_sel{
+	quotes: "\201C""\201D""\2018""\2019";
+    border-bottom: 2px dashed #f2f1f1;
+    margin-top: 35px;
+    padding-bottom: 15px;
+}
+
+.con_sel:before{
+	color: #ededed;
+    content: open-quote;
+    font-size: 6em;
+    line-height: .1em;
+    margin-right: .1em;
+    vertical-align: -.5em;
+}
+
+.con_sel:after{
+	color: #ededed;
+    content: close-quote;
+    font-size: 6em;
+    line-height: .1em;
+    margin-left: .25em;
+    vertical-align: -.6em;
+}
+
+.con_sel .sel_title{
+	display: inline;
+    padding: 15px 0;
+    font-size: 17px;
+    line-height: 33px;
+    color: #555555;
+    font-weight: bold;
+    color: #d6623d;
+}
+
+.con_sel p{
+	display: inline;
+    width: auto;
+    padding: 15px 0;
+    font-size: 17px;
+    line-height: 33px;
+    color: #555555;
+}
+
+.sel_img{
+	display: table;
+	width:768px;
+	border-bottom: 2px dashed #f2f1f1;
+	padding: 30px 0px;
+}
+
+.sel_title_top{
+	width:530px;
+	float: right;
+}
+
+.title_font{
+	height:20px;
+	line-height: 18px;
+}
+
+.title_font a{
+	font-size: 18px;
+    font-weight: bold;
+    color: #383838;
+}
+
+.title_font a:hover{
+	color:#D6623D;
+}
+
+.sel_dates{
+	font-style: normal;
+    display: block;
+    font-size: 13px;
+	color: #a2a2a2;
+    margin-top: 15px; 
+}
+
+.sel_dates .sel_link{
+	color: #a2a2a2;
+}
+
+.sel_dates .sel_link:hover{
+	color:#D6623D;
+}
+
+.sel_mimg{
+	display: block;
+	float: left;
+    margin-right: 25px;
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    /*background: url(images/xxx.gif);*/
+    background-size: 200px auto;
+    margin-top: 5px;
+}
+
+.sel_mimg .sel_img_font{
+	width: 200px;
+    height: auto;
+    transition: All 0.4s ease-in-out;
+    display: block;
+}
+
+.sel_p_ar{
+	margin-right: 5px;
+    line-height: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+    float: right;
+    width: 530px;
+}
+
+/* 没有img样式*/
+.sel_title_noimg{
+	width: 98%;
+    margin: 0 auto;
+}
+
+.sel_ar_noimg{
+	width: 98%;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    clear: both;
+    font-size: 14px;
+}
+

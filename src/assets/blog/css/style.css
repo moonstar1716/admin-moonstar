@@ -1,0 +1,192 @@
+
+
+.container .con_left .con_tit_big{
+	width:810px;
+	height:80px;
+	background-color: #fafafa;
+	margin-top:30px;
+	margin-bottom:20px
+}
+
+.con_tit_big .con_count{
+	color:#ec9573;
+	font-size: 60px;
+	margin-left:15px;
+	line-height: 80px;
+	float: left;
+}
+
+.con_tit_big .con_big_right{
+	
+}
+
+.con_tit_big .con_big_right .con_top_one{
+	padding-top:10px
+}
+
+.con_tit_big .con_big_right .con_top_one .con_model{
+	font-size:25px;
+	color:#D6623D;
+	padding-left:20px;
+}
+
+.con_tit_big .con_big_right .con_date{
+	color:#a2a5c6;
+	font-size:13px;
+	margin-top:5px;
+	
+}
+
+.con_tit_big .con_big_right .con_date_show{
+	margin-left:20px;
+}
+
+.con_tit_big .con_big_right .con_inmo{
+	color:#a2a5c6;
+}
+.con_tit_big .con_big_right .con_inmo:hover{
+	color:#D6623D;
+}
+
+.con_ar_img{
+	padding:0 20px
+}
+
+.con_ar_img .con_p_con{
+	text-indent: 24px;
+	line-height: 28px;
+}
+
+.con_ar_img img{
+	display: block;
+	width:100%;
+	margin:20px 0;
+}
+
+/* 图片列表 */
+.con_list{
+	width:790px;
+    border-bottom: 2px dashed #f2f1f1;
+    padding: 30px 0;
+    margin:0 auto;
+    display: table;
+}
+
+.con_img{
+	display: block;
+    float: left;
+    margin-right: 25px;
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+}
+.con_img .img_size{
+	display: block;
+	width:200px;
+	height:auto;
+}
+
+.con_img .img_style{
+	display: block;
+}
+
+/* 点赞 */
+.post_like{
+	margin: 0 auto;
+    width: 90px;
+    height: 35px;
+    border-radius: 2px;
+    background: #d6623d;
+    margin-top: 50px;
+}
+
+
+
+.post_like .favorite{
+	display: block;
+	font-size: 12px;
+    text-decoration: none;
+    outline: none;
+    width: 90px;
+    height: 35px;
+    background: url(../img/zan.png) no-repeat;
+    background-size: 20px auto;
+    background-position: 13px 8px;
+}
+
+.post_like a.done{
+	cursor: not-allowed;
+	color:#fff
+}
+
+.post_like .zan_count{
+	float: left;
+    margin-left: 40px;
+    display: block;
+    height: 35px;
+    line-height: 36px;
+    width: 40px;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+}
+
+.zhuan_where{
+	padding: 30px 0px;
+    margin-top: 50px;
+    background: #FAFAFA;
+    font-size: 17px;
+    padding-left: 50px;
+    width: 760px;
+}
+
+/* 点赞结束 */
+
+/* 相关文章开始 */
+.about_art{
+	width:100%;
+	overflow: hidden;
+	margin-top:50px
+}
+
+.about_art .about_tit{
+	line-height: 25px;
+    font-size: 17px;
+    color: #000;
+    font-weight: bold;
+    margin-left:26px
+}
+
+.about_art ul{
+	margin-top:20px
+}
+
+.about_art ul li{
+	float: left;
+    width: 241px;
+    margin-left: 26px;
+    overflow: hidden;
+}
+
+.about_art ul li .about_img img{
+	display: block;
+    width: 241px;
+    height: 145px;
+}
+
+.about_art .about_artitle{
+	width: 100%;
+    line-height: 30px;
+    display: block;
+    padding: 8px 0px;
+}
+
+.about_art .about_artitle:hover{
+	color:#D6623D
+}
+
+/* 相关文章结束 */
+
+
+
+

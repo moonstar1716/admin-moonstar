@@ -1,0 +1,20 @@
+
+/* search */
+.head_main .search_in {
+    width: 660px;
+    height: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-left:80px
+}
+.head_main .search_btn{
+    width: 70px;
+    height: 45px;
+}
+.head_main .search {
+    padding-top:0;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>后台登录</title>
+<link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/login.css">
+<!-- <script type="text/javascript" src="js/jquery.1.11.1.js"></script> -->
+<script type="text/javascript" src="js/Vue.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</head>
+<body>
+	<!-- login -->
+	<div class="login_main" id="app">
+		<div class="login_box">
+			<h2 class="login_title">登录</h2>
+			<input type="text" value="" class="login_user" id="login_user" name="user" placeholder="用户名"/>
+			<input type="password" value="" class="login_pwd" id="login_pwd" name="pwd" placeholder="密码"/>
+			<button class="login_btn" @click="loginFun()">登录</button>
+		</div>
+	</div>
+</body>	
+</html>
+<script type="text/javascript">
+new Vue({
+		el:'#app',
+		data:{
+			
+		},
+		methods:{
+			//登录
+			loginFun(){
+				let name = document.getElementById('login_user').value;
+				let pwd = document.getElementById('login_pwd').value;
+				login(name,pwd);
+			}
+		}
+})
+</script>
